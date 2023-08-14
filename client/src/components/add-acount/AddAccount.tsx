@@ -44,6 +44,7 @@ const AddAccount = () => {
       <Typography  variant="subtitle1" gutterBottom>
       {"Вы можете в любое время изменить или преобразовать свой аккаунт. Выберите «Настройки» > «Настройки аккаунта» > «Изменение аккаунта» или нажмите здесь. "}     </Typography>  
          </Box>
+         {console.log('aaaaaaa')}
     </Box>
   )
 };
