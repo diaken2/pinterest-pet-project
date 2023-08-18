@@ -1,9 +1,11 @@
 import { Typography,Button } from "@mui/material";
+import {FC} from 'react'
 import Box from "@mui/material/Box";
-
-const AddAccount = () => {
+import LoginMenu from '../add-account-login-menu/LoginMenu'
+const AddAccount:FC = () => {
   return (
     <Box display="flex" padding="20px" flexDirection="column" justifyContent="center" alignItems="center" gap="40px" >
+        <LoginMenu/>
         <Box display="flex" textAlign="center" flexDirection="column" width="400px" gap="10px">
         <Typography variant="h4" gutterBottom>
         Добавить аккаунт
