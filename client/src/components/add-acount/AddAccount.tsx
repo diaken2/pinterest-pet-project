@@ -4,9 +4,9 @@ import Box from "@mui/material/Box";
 import LoginMenu from '../add-account-login-menu/LoginMenu'
 const AddAccount:FC = () => {
   return (
-    <Box display="flex" padding="20px" flexDirection="column" justifyContent="center" alignItems="center" gap="40px" >
+    <Box display="flex" paddingTop="150px" flexDirection="column" justifyContent="center" alignItems="center" gap="40px" >
         <LoginMenu/>
-        <Box display="flex" textAlign="center" flexDirection="column" width="400px" gap="10px">
+        <Box display="flex" textAlign="center" flexDirection="column" width="400px" gap="10px" justifyContent="center" alignItems="center">
         <Typography variant="h4" gutterBottom>
         Добавить аккаунт
       </Typography>
@@ -15,7 +15,7 @@ const AddAccount:FC = () => {
       </Typography>
       </Box>
       <Box display="flex" flexWrap="wrap" gap="20px" >
-          <Box display="flex" gap="15px"  boxShadow="0 0 8px rgba(0,0,0,.1)" borderRadius="32px" padding="24px" width="260px" flexDirection="column" alignItems="center" textAlign="center">
+          <Box display="flex" gap="15px"  boxShadow="0 0 8px rgba(0,0,0,.1)" borderRadius="32px" padding="24px" width="210px" flexDirection="column" alignItems="center" textAlign="center">
           <Typography  variant="h5" gutterBottom>
           Подключение существующего аккаунта
       </Typography>
@@ -27,7 +27,7 @@ const AddAccount:FC = () => {
       </Button>
           </Box>
      
-      <Box display="flex" gap="15px" borderRadius="32px" boxShadow="0 0 8px rgba(0,0,0,.1)"  flexDirection="column" alignItems="center" textAlign="center" padding="24px"  width="260px">
+      <Box display="flex" gap="15px" borderRadius="32px" boxShadow="0 0 8px rgba(0,0,0,.1)"  flexDirection="column" alignItems="center" textAlign="center" padding="24px"  width="210px">
           <Typography  variant="h5" gutterBottom>
           Создание нового личного аккаунта
                 </Typography>

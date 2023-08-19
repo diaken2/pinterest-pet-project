@@ -1,6 +1,6 @@
 import {LOGIN_MENU_IS_VISIBLE,IAuthInform} from '../types/authReducerTypes'
 const authInform:IAuthInform={
-    loginMenuIsVisible:false
+    loginMenuIsVisible:true
 }
 
 const authReducer=(state=authInform,action:any)=>{

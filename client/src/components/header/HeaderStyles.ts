@@ -8,6 +8,9 @@ export const AppBarStyles={
     height:"80px",
     display:"flex",
     justifyContent:"center",
+    width: '100%',
+    flex: "1 1 auto",
+    
    
     
    
